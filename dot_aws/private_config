@@ -1,0 +1,23 @@
+[profile CynetDevelopers-243885107131]
+sso_session = Cynet
+sso_account_id = 243885107131
+sso_role_name = CynetDevelopersProd
+region = us-east-1
+output = json
+[sso-session Cynet]
+sso_start_url = https://cynet.awsapps.com/start
+sso_region = us-east-1
+sso_registration_scopes = sso:account:access
+[default]
+sso_session = Cynet
+sso_account_id = 243885107131
+sso_role_name = CynetDevelopersProd
+region = us-east-1
+output = json
+profile = CynetDevelopers-243885107131
+[profile CynetDevelopers-066568741345]
+sso_session = Cynet
+sso_account_id = 066568741345
+sso_role_name = CynetDevelopers
+region = us-east-1
+output = json

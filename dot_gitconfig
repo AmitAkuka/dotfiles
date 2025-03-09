@@ -1,0 +1,27 @@
+[user]
+	name = Amit Akuka
+	email = amita@cynet.com
+
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[delta]
+    syntax-theme = Monokai Extended
+    navigate = true
+    side-by-side = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[core]
+	editor = micro
+	ignorecase = false
